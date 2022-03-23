@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package BAI_4_Array_ArrayList_List;
+package BAI4_Array_ArrayList_List;
 
 import java.util.Scanner;
 
