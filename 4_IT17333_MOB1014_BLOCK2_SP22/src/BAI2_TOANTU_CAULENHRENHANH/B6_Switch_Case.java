@@ -53,7 +53,7 @@ public class B6_Switch_Case {
                     break;
                 case "4":
                     System.out.println("Hẹn bạn lần sau");
-                    //System.exit(0);
+                    System.exit(0);
                     break;
                 default:
                      System.out.print("Món bạn chọn không tồn tại ");

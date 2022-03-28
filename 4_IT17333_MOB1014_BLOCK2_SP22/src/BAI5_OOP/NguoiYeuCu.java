@@ -35,6 +35,7 @@ public class NguoiYeuCu {
     //2.1 Contructor không tham số: Alt + insert hoặc chuột phải chọn Insert code.->Contructor
 
     public NguoiYeuCu() {
+        //System.out.println("Đây là contructor thành phần đầu tiên khi chạy vào");
     }
     
     //2.2 Contructor có tham số: Alt + insert hoặc chuột phải chọn Insert code.->Contructor - Select All

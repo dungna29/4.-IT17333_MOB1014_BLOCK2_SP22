@@ -74,6 +74,23 @@ public class S1_LyThuyet {
             Vòng 3: 70
             Cân Nặng: 60
         */
+        //Phần 1: Khai báo và khởi tạo
+        //Phải biết tên đối tượng, đang nằm trong package nào.
+        NguoiYeuCu nyc;//Khai báo
+        nyc = new NguoiYeuCu();//Khởi tạo đối tượng thì mới dùng được.
+        //Đối với contructor không tham số thì không có giá trị ban đầu
         
+        //Để gán giá trị thì cần sử dụng phương thức setter
+        nyc.setTen("Hoa");
+        nyc.setSoThich("Thích ăn");
+        nyc.setTruongHoc("FPOLY");
+        nyc.inRaManHinh();
+        
+        //Để lấy giá trị thì dùng getter
+        System.out.println(nyc.getTen() + " " + nyc.getTruongHoc());
+        
+        //Sử dụng contrucotr có tham số để gán giá trị cho đối tượng ngay khi khởi tạo
+        NguoiYeuCu nyc1 = new NguoiYeuCu("Hoa", 2000, "0123", "Ăn",0, 70, 60, 80, 70, "BK");
+        nyc1.inRaManHinh();
     }
 }
