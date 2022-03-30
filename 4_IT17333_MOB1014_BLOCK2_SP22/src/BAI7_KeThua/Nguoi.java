@@ -72,7 +72,7 @@ public class Nguoi {
         
     }
     public void method2(int a){
-        
+        System.out.println("Đây là method của cha");
     }
     private void method3(int a, int b, String c){
         

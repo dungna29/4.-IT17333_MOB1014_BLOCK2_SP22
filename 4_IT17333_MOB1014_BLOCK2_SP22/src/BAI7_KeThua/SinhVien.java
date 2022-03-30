@@ -48,5 +48,18 @@ public class SinhVien extends Nguoi{
         this.nganhHoc = nganhHoc;
     }
     
+    //Kế thừa phương thức trong lập trình hướng đối tượng chính là Ghi đè phương thước (Overide)
+    //Alt + Insert => Overide Method và chọn phương thức cần kế thừa.
+
+    @Override
+    public void method2(int a) {
+        System.out.println("Đây là method của con");
+        //Khi đã ghi đè phương thức lớp con có thể code lại nội dung bên trong phương thức.
+    }
+
+    @Override
+    public void method1(int a, int b, int c) {
+        
+    }
     
 }
